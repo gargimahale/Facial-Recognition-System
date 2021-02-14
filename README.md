@@ -3,6 +3,7 @@ This facial recognition system uses **Siamese Neural network**. Over the years t
 
 There are 4 different face detectors for usage. Wrappers for video and webcam processing are provided for convenience.<br><br>
 
+**Refer to USAGE.md for setup and customization details** <br>
 ## Table of Contents
 - [Facial Recognition System](#facial-recognition-system)
   - [Table of Contents](#table-of-contents)
@@ -10,7 +11,6 @@ There are 4 different face detectors for usage. Wrappers for video and webcam pr
   - [Processed Video](#processed-video)
   - [Processed Images](#processed-images)
 - [Architecture](#architecture)
-  - [Refer to USAGE.md for setup and customization details](#refer-to-usagemd-for-setup-and-customization-details)
 - [References](#references)
 
 # Sample Output
@@ -39,8 +39,6 @@ These are the major components:
 4. **Utilities**: Methods for handling image, video operations, validations, etc.
 
 <br>
-
-## Refer to USAGE.md for setup and customization details
 
 # References
 Davis E. King: http://dlib.net/cnn_face_detector.py.html, https://github.com/davisking/dlib-models<br>

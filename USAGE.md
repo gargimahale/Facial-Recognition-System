@@ -15,7 +15,7 @@ There are multiple ways to set this up,
     ```
     docker build -t <name> .
     ```
-### Face Recognition
+# Face Recognition
 Depending on the use case, whether to aim for accuracy and stability or speed etc., you can pick the face detector. Also, there are customization options inside face detectors to decide the facial ROI.
 
 
