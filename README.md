@@ -1,7 +1,7 @@
 # Facial Recognition System
 This facial recognition system uses **Siamese Neural network**. Over the years there have been different architectures published and implemented. There are numerous control parameters to control how you want to use the features, be it face detection, face recognition on videos, or with a webcam. The library uses **dlib**'s face recognition model, which is inspired from **ResNet-34** network. The modified ResNet-34 has 29 Convolutional layers. The model achieved **99.38%** accuracy on LFW dataset. 
 
-There are 4 different face detectors for usage. Wrappers for video and webcam processing are provided for convenience.<br><br>
+There are 4 different face detectors for usage. Wrappers for video and webcam processing are provided for convenience.<br>
 
 **Refer to USAGE.md for setup and customization details** <br>
 ## Table of Contents
@@ -20,12 +20,8 @@ There are 4 different face detectors for usage. Wrappers for video and webcam pr
 
 ## Processed Images
 
-<img src="data/media/1.jpg" height="320" />
-<img src="data/media/7.jpg" height="320" />
-<img src="data/media/8.jpg" height="320" />
-<img src="data/media/3.jpg" height="320" />
-<img src="data/media/4.jpg" height="320" />
-
+<img src="data/media/1.jpg" height="320" /><img src="data/media/7.jpg" height="320" /><img src="data/media/8.jpg" height="320" />
+<img src="data/media/3.jpg" height="320" /><img src="data/media/4.jpg" height="320" />
 
 # Architecture
 
