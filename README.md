@@ -38,6 +38,7 @@ These are the major components:
 4. **Utilities**: Methods for handling image, video operations, validations, etc.
 
 <br>
+
 # References
 Davis E. King: http://dlib.net/cnn_face_detector.py.html, https://github.com/davisking/dlib-models<br>
 More about MTCNN: https://github.com/ipazc/mtcnn
