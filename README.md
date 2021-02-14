@@ -10,6 +10,7 @@ There are 4 different face detectors for usage. Wrappers for video and webcam pr
   - [Processed Video](#processed-video)
   - [Processed Images](#processed-images)
 - [Architecture](#architecture)
+  - [Refer to USAGE.md for setup and customization details](#refer-to-usagemd-for-setup-and-customization-details)
 - [References](#references)
 
 # Sample Output
@@ -38,6 +39,8 @@ These are the major components:
 4. **Utilities**: Methods for handling image, video operations, validations, etc.
 
 <br>
+
+## Refer to USAGE.md for setup and customization details
 
 # References
 Davis E. King: http://dlib.net/cnn_face_detector.py.html, https://github.com/davisking/dlib-models<br>
