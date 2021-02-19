@@ -33,7 +33,6 @@ These are the major components:
 2. **Face Recognition**: Responsible for handling facial recognition related functionalities like registering facial data etc. 
 3. **Storage**: The system provides abstract definitions of cache and persistent storage. For usage, a simple cache using python's native data structure is provided along side a persistent storage system with JSON. If needed the abstract classes can be extended to integrate better storage systems. 
 4. **Utilities**: Methods for handling image, video operations, validations, etc.
-<br>
 
 # References
 Davis E. King: http://dlib.net/cnn_face_detector.py.html, https://github.com/davisking/dlib-models<br>
