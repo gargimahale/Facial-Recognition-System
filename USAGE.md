@@ -1,17 +1,11 @@
 # Setup
 
-There are multiple ways to set this up,
-
-1. Cloning the repo and installing the dependencies
-   ```
-    git clone https://github.com/gargimahale/Facial-Recognition-System.git
-    pip install -r requirements.txt
-   ```
+Cloning the repo and installing the dependencies
+```
+ git clone https://github.com/gargimahale/Facial-Recognition-System.git
+ pip install -r requirements.txt
+```
    
-2. Using Dockerfile - You can build the docker image from the docker file present in the repo.
-    ```
-    docker build -t <name> .
-    ```
 # Face Recognition
 Depending on the use case, whether to aim for accuracy and stability or speed etc., you can pick the face detector. Also, there are customization options inside face detectors to decide the facial ROI.
 
