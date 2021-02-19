@@ -1,5 +1,5 @@
 # Facial Recognition System
-This facial recognition system uses **Siamese Neural network**. Over the years there have been different architectures published and implemented. There are numerous control parameters to control how you want to use the features, be it face detection, face recognition on videos, or with a webcam. The library uses **dlib**'s face recognition model, which is inspired from **ResNet-34** network. The modified ResNet-34 has 29 Convolutional layers. The model achieved **99.38%** accuracy on LFW dataset. 
+This facial recognition system uses **Siamese Neural network**. Over the years there have been different architectures published and implemented. There are numerous control parameters to control how you want to use the features, be it face detection, face recognition on videos, or with a webcam. The project uses **dlib**'s face recognition model, which is inspired from **ResNet-34** network. The modified ResNet-34 has 29 Convolutional layers. The model achieved **99.38%** accuracy on LFW dataset. 
 
 There are 4 different face detectors for usage. Wrappers for video and webcam processing are provided for convenience.<br>
 
@@ -33,7 +33,6 @@ These are the major components:
 2. **Face Recognition**: Responsible for handling facial recognition related functionalities like registering facial data etc. 
 3. **Storage**: The system provides abstract definitions of cache and persistent storage. For usage, a simple cache using python's native data structure is provided along side a persistent storage system with JSON. If needed the abstract classes can be extended to integrate better storage systems. 
 4. **Utilities**: Methods for handling image, video operations, validations, etc.
-
 <br>
 
 # References
