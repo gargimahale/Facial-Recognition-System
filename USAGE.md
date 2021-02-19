@@ -7,11 +7,8 @@ There are multiple ways to set this up,
     git clone https://github.com/gargimahale/Facial-Recognition-System.git
     pip install -r requirements.txt
    ```
-2. Using Docker Image - You can pull the docker image for this project and run the code there.
-    ```
-    docker pull gargimahale/face_recog:latest
-    ```
-3. Using Dockerfile - You can build the docker image from the docker file present in the repo.
+   
+2. Using Dockerfile - You can build the docker image from the docker file present in the repo.
     ```
     docker build -t <name> .
     ```
